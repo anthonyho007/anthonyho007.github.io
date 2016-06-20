@@ -9,7 +9,6 @@ h1 {
   margin: 0;
   text-align: center;
   font-size: 20px;
-  margin-top: -0.5em;
 }
 
 /* line 61, ../scss/app.scss */
@@ -108,7 +107,7 @@ a {
 
 h1{
   font-size:5em;
-  font-size: 23vw;
+  font-size: 20vw;
   letter-spacing:-.06em;
   line-height:1.5;
   position:relative;
