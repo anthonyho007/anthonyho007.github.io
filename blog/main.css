@@ -1,0 +1,191 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* line 55, ../scss/app.scss */
+h1 {
+  padding: 20% 0 0 0;
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -0.5em;
+}
+
+/* line 61, ../scss/app.scss */
+p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 65, ../scss/app.scss */
+strong {
+  color: #fff;
+}
+
+/* Make each section 100% of the browser viewport height */
+/* line 70, ../scss/app.scss */
+section {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  /* Center the content of the sections */
+}
+/* line 77, ../scss/app.scss */
+section .inner {
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+/* Background colors for each section */
+/* line 84, ../scss/app.scss */
+section#one {
+  background-color: #fff;
+}
+
+/* line 85, ../scss/app.scss */
+section#two {
+  background-color: #fff;
+}
+
+/* line 86, ../scss/app.scss */
+section#three {
+  background-color: #fff;
+}
+section#four {
+  background-color: #fff;
+}
+section#five {
+  background-color: #fff;
+}
+section#six {
+  background-color: #fff;
+}
+/* line 93, ../scss/app.scss */
+section#seven {
+  background-color: #fff;
+  transition: all 0.4s linear;
+}
+/* line 96, ../scss/app.scss */
+section#seven.is-active {
+  background-color: #fff;
+}
+
+}
+
+
+/* overiding */
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+body {
+  
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  font-size:20px;
+  line-height:1.4em;
+  background:#fff;
+  color:#333
+  weight
+}
+figure img {
+  width: 70%;
+  height: auto;
+  margin-right: 0.6em;
+  margin-left: 0.6em;
+  border: 0.5px solid;
+  margin-top: 5em;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+h1{
+  font-size:5em;
+  font-size: 20vw;
+  letter-spacing:-.06em;
+  line-height:1.5;
+  position:relative;
+  margin-bottom:-.12em;
+
+}
+h2 {
+  font-family:Futura,"Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-size:1em;
+  font-weight:100;
+  padding-left:.3em;
+  text-transform:uppercase;
+  letter-spacing:.15em;
+  margin-top: 1.2em;
+  color:#c80909;
+}
+h4 {
+  font-family:"Avenir Next",Avenir,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  margin:1.2em;
+  padding-bottom: 40px;
+}
+.intro {
+  height:100%;
+
+}
+.page-title {
+  text-align: center;
+
+}
+
+.page-description {
+  text-align: center;
+  padding: 25px;
+}
+
+
+/* color change for the title*/
+
+h1.page-title{
+    -webkit-animation: color-change 1s infinite;
+    -moz-animation: color-change 1s infinite;
+    -o-animation: color-change 1s infinite;
+    -ms-animation: color-change 1s infinite;
+    animation: color-change 1s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: black; }
+    33% { color: blue; }
+    66% { color: red; }
+    90% { color: black; }
+}
+@-moz-keyframes color-change {
+    0% { color: black; }
+    33% { color: blue; }
+    66% { color: red; }
+    90% { color: black; }
+}
+@-ms-keyframes color-change {
+    0% { color: black; }
+    33% { color: blue; }
+    66% { color: red; }
+    90% { color: black; }
+}
+@-o-keyframes color-change {
+    0% { color: black; }
+    33% { color: blue; }
+    66% { color: red; }
+    90% { color: black; }
+}
+@keyframes color-change {
+    0% { color: black; }
+    33% { color: blue; }
+    66% { color: red; }
+    90% { color: black; }
+}
+
+
+
+
